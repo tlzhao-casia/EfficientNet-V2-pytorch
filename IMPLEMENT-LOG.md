@@ -8,16 +8,12 @@ I have made a stupid bug. I forgot to set the model to eval mode during evaluati
 ## Update at 2022.06.09
 I have implemented the progressive training techniques: Progressively increase both the image size and regularization magnitudes during training. The relative hyper-parameters are:
 
-<html>
-<head>
 <style>
 th {
-	background-color: #D6EEEE
+	background-color: #D6EEEE;
+    text-align: center
 }
 </style>
-</head>
-
-<body>
 <table>
 <caption> Hyper-parameters for progressive training </caption>
 <tr>
@@ -39,8 +35,6 @@ th {
 <td> Dropout rate </td> <td> 0.1 </td> <td> 0.3 </td>
 </tr>
 </table>
-</body>
-</html>
 
 ## Update at 2022.06.08
 Network architecture implementation of EfficientNetV2-S completed.
