@@ -8,12 +8,6 @@ I have made a stupid bug. I forgot to set the model to eval mode during evaluati
 ## Update at 2022.06.09
 I have implemented the progressive training techniques: Progressively increase both the image size and regularization magnitudes during training. The relative hyper-parameters are:
 
-<style>
-th {
-	background-color: #D6EEEE;
-    text-align: center
-}
-</style>
 <table>
 <caption> Hyper-parameters for progressive training </caption>
 <tr>
