@@ -295,8 +295,8 @@ def main(rank, world_size, config):
 			
 			epoch_end = time.time()
 			print(f'Runtime: {(epoch_end - epoch_start) / 60:.2f} min. '
-				  f'Train {acc_meter.accs_str()}. Loss: {loss_meter.avg:.6f}. '
-				  f'Val {val_acc_meter.accs_str()}. Loss: {val_loss:.6f}')
+				  f'Train {acc_meter.accs_str()}. Loss: {loss_meter.avg:.6f}'
+				  f'Val {val_acc_meter.accs_str()}Loss: {val_loss:.6f}')
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
